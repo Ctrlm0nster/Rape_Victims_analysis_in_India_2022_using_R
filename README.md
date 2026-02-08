@@ -106,18 +106,37 @@ This is a **descriptive analysis only** — no inferential statistics or predict
 
 ```
 ├── Data/
-│   ├── NCRB_DATA.3.csv
-│   └── NCRB_DATA.xml
-├── Scripts/
-│   ├── analysis_csv.R
-│   └── analysis_xml.R
+│   └── NCRB_DATA.3.csv
+│
 ├── Output/
-│   ├── top_states_cases.png
-│   ├── child_vs_adult_victims.png
-│   |── age_distribution.png
-│   |── rape_victims_data_2022.csv
-│   └── summary_statistics.txt
+│   ├── CSV/
+│   │   ├── dashboard_summary.rds
+│   │   ├── ncrb_analysis_report_2022.txt
+│   │   ├── ncrb_rape_data_2022_cleaned.csv
+│   │   ├── plot1_top15_states_cases.png
+│   │   ├── plot2_child_vs_adult_victims.png
+│   │   ├── plot3_age_distribution_india.png
+│   │   ├── plot4_child_victim_percentage.png
+│   │   ├── plot5_case_volume_categories.png
+│   │   └── plot6_age_breakdown_top10.png
+│   │
+│   └── XML/
+│       ├── age_distribution.png
+│       ├── child_vs_adult_victims.png
+│       ├── rape_victims_data_2022.csv
+│       ├── summary_statistics.txt
+│       ├── top_states_cases.png
+│       └── XML_Generated_Plots.pdf
+│
+├── Scripts/
+│   ├── Analysis_Script_CSV.R
+│   └── Analysis_Script_XML.R
+│
+├── .gitignore
+├── .Rhistory
+├── LICENSE
 └── README.md
+
 ```
 
 ---
