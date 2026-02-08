@@ -446,7 +446,7 @@ ggsave("Output/CSV/plot2_child_vs_adult_victims.png", p2, width = 12, height = 8
 ggsave("Output/CSV/plot3_age_distribution_india.png", p3, width = 12, height = 7, dpi = 300)
 ggsave("Output/CSV/plot4_child_victim_percentage.png", p4, width = 12, height = 8, dpi = 300)
 ggsave("Output/CSV/plot5_case_volume_categories.png", p5, width = 10, height = 8, dpi = 300)
-ggsave("plot6_age_breakdown_top10.png", p6, width = 12, height = 8, dpi = 300)
+ggsave("Output/CSV/plot6_age_breakdown_top10.png", p6, width = 12, height = 8, dpi = 300)
 
 # ============================================
 # 7. CREATE SUMMARY DASHBOARD DATA
