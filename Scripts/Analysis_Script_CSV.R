@@ -224,7 +224,7 @@ print(category_summary)
 # ============================================
 
 # Saving Plots
-pdf("Output/XML/CSV_Generated_Plots.pdf", width = 10, height = 8)
+pdf("Output/CSV/CSV_Generated_Plots.pdf", width = 10, height = 8)
 
 # Set theme for all plots
 theme_set(theme_minimal())
