@@ -114,8 +114,8 @@ This is a **descriptive analysis only** — no inferential statistics or predict
 ├── Output/
 │   ├── top_states_cases.png
 │   ├── child_vs_adult_victims.png
-│   └── age_distribution.png
-│   ├── rape_victims_data_2022.csv
+│   |── age_distribution.png
+│   |── rape_victims_data_2022.csv
 │   └── summary_statistics.txt
 └── README.md
 ```
