@@ -223,6 +223,9 @@ print(category_summary)
 # 5. VISUALIZATIONS
 # ============================================
 
+# Saving Plots
+pdf("Output/XML/CSV_Generated_Plots.pdf", width = 10, height = 8)
+
 # Set theme for all plots
 theme_set(theme_minimal())
 
