@@ -137,6 +137,3 @@ This is a **descriptive analysis only** — no inferential statistics or predict
 * The most affected age group is **18–30 years**, followed by **30–45 years**.
 
 ---
-
-If you want, I can also provide a **short submission-ready README**, a **technical report format**, or add **reproducibility instructions** (e.g., how to run the scripts).
-
